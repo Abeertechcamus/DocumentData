@@ -53,5 +53,5 @@ df.head(), df.info()
 ```
 
 
-To view the dashboard enter this link  [employee dashboard](employeedashboard.pdf).
+To view the dashboard enter this link  [employee dashboard](employee_dashboard.pdf).
 
