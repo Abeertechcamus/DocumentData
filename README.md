@@ -22,6 +22,7 @@ Here’s an overview of the data structure:
 
  It includes headers spread across multiple rows, and many columns are labeled "Unnamed.
 
+### correct headers
 ```
 <!-- setting the correct headers for clarity by adding skiprows -->
 import pandas as pd
@@ -49,7 +50,7 @@ df['Phone Number']=df['Phone Number'].str.replace('Tel:','')
 ### Display a summary of the cleaned data
 ```
 df.head(), df.info()
-
 ```
+
 To view the dashboard enter this link  [employee dashboard](employee dashboard.pdf).
 
