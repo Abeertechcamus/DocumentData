@@ -1,5 +1,7 @@
 # DocumentData
 
+This dashboard was built using dataset [GitHub Pages](Orders.csv).
+
 **Data:**
 The file appears to contain 20,008 rows and 19 columns
 
@@ -23,7 +25,7 @@ Here’s an overview of the data structure:
 ```
 <!-- setting the correct headers for clarity by adding skiprows -->
 import pandas as pd
-df=pd.read_csv(r'C:\Users\ms-ab\Downloads\Orders.csv', skiprows=4)
+df=pd.read_csv(r'Orders.csv', skiprows=4)
 df
 ```
 
