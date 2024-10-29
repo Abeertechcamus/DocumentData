@@ -1,6 +1,6 @@
 # DocumentData
 
-This dashboard was built using dataset [GitHub Pages](Orders.csv).
+This dashboard was built using this dataset [Ordersdataset](Orders.csv).
 
 **Data:**
 The file appears to contain 20,008 rows and 19 columns
@@ -29,7 +29,7 @@ df=pd.read_csv(r'Orders.csv', skiprows=4)
 df
 ```
 
-# Drop any completely empty rows
+### Drop any completely empty rows
 
 ```
 df.dropna(how='all', inplace=True)
@@ -37,17 +37,19 @@ df.dropna(how='all', inplace=True)
 ```
 
 
-# Display City names to capital titile where applicable
+### Display City names to capital titile where applicable
 ```
 df['City']=df['City'].str.title()
 ```
 
-## Remove "Tel:" from phone numbers and strip extra spaces
+### Remove "Tel:" from phone numbers and strip extra spaces
 ```
 df['Phone Number']=df['Phone Number'].str.replace('Tel:','')
 ```
-# Display a summary of the cleaned data
+### Display a summary of the cleaned data
 ```
 df.head(), df.info()
 
 ```
+###To view the dashboard enter this link  [employee dashboard](employee dashboard.pdf).
+
